@@ -327,6 +327,7 @@ module.exports = {
         "syncer/overview",
         "syncer/Database",
         "syncer/Keycloak",
+        "syncer/WeCom",
       ],
     },
     {
@@ -362,6 +363,14 @@ module.exports = {
         "ldap/overview",
         "ldap/config",
         "ldap/ldapserver",
+      ],
+    },
+    {
+      type: "category",
+      label: "RADIUS",
+      link: {type: "generated-index"},
+      items: [
+        "radius/overview",
       ],
     },
     {
